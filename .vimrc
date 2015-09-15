@@ -5,6 +5,7 @@ set runtimepath^=~/.vim/bundle/ag
 set runtimepath^=~/.vim/bundle/vim-coffee-script
 set expandtab
 set tabstop=2
+set shiftwidth=2
 set list
 set listchars=tab:▸\ ,eol:¬
 syntax on
