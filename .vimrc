@@ -1,4 +1,5 @@
 set number
+set smartindent
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/ag
 set runtimepath^=~/.vim/bundle/vim-coffee-script
