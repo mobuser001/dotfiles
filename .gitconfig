@@ -18,8 +18,8 @@
 	f = fetch --all
 	co = checkout
 	cp = cherry-pick
-  pom = push origin master
-  dom = rebase origin/master
+	pom = push origin master
+	dom = rebase origin/master
 [github]
 	user = RobertBrewitz
 [branch]  
