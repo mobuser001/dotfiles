@@ -18,6 +18,6 @@ alias gm="git merge"
 alias gc="git checkout"
 alias pjson="python -m json.tool"
 
-export NVM_DIR="~/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
