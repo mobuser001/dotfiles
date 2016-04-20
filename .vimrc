@@ -10,10 +10,8 @@ set list
 set listchars=tab:▸\ ,eol:¬
 syntax on
 color idlefingers
-nnoremap ª :tabn<cr>
-nnoremap √ :tabp<cr>
-nnoremap <C-k> <C-w><C-k>
+nnoremap <C-k> :tabn<cr>
+nnoremap <C-j> :tabp<cr>
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
-nnoremap <C-j> <C-w><C-j>
 
