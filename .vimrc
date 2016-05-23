@@ -14,4 +14,5 @@ nnoremap <C-k> :tabn<cr>
 nnoremap <C-j> :tabp<cr>
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
+cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
 
