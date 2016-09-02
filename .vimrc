@@ -4,6 +4,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/ag
 set runtimepath^=~/.vim/bundle/vim-coffee-script
 set runtimepath^=~/.vim/bundle/vim-pug
+set runtimepath^=~/.vim/bundle/editorconfig-vim
 set expandtab
 set tabstop=2
 set shiftwidth=2
