@@ -16,4 +16,5 @@ nnoremap <C-j> :tabp<cr>
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
 cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
+let g:ctrlp_show_hidden = 1
 
