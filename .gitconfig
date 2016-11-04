@@ -1,28 +1,28 @@
 [user]
-	name = Robert Brewitz
-	email = hello@robertbrewitz.com
+  name = Robert Brewitz
+  email = hello@robertbrewitz.com
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
 [core]
-	editor = vi
-	whitespace = nowarn
-	excludesfile = ~/.gitignore
+  editor = vi
+  whitespace = nowarn
+  excludesfile = ~/.gitignore
 [merge]
-	tool = opendiff
+  tool = opendiff
 [alias]
-	s = status
-	st = status
-	f = fetch --all
-	co = checkout
-	cp = cherry-pick
-	pom = push origin master
-	dom = rebase origin/master
+  s = status
+  st = status
+  f = fetch --all
+  co = checkout
+  cp = cherry-pick
+  pom = push origin master
+  dom = rebase origin/master
 [github]
-	user = RobertBrewitz
+  user = RobertBrewitz
 [branch]  
-	autosetuprebase = always
+  autosetuprebase = always
 [push]
-	default = simple
+  default = simple
