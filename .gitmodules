@@ -1,15 +1,7 @@
 [submodule ".vim/bundle/ctrlp.vim"]
-	path = .vim/bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
-[submodule ".vim/bundle/ag"]
-	path = .vim/bundle/ag
-	url = https://github.com/ervandew/ag.git
-[submodule ".vim/bundle/vim-coffee-script"]
-	path = .vim/bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule ".vim/bundle/vim-pug"]
-	path = .vim/bundle/vim-pug
-	url = https://github.com/digitaltoad/vim-pug.git
+  path = .vim/bundle/ctrlp.vim
+  url = https://github.com/kien/ctrlp.vim.git
 [submodule ".vim/bundle/editorconfig-vim"]
-	path = .vim/bundle/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim.git
+  path = .vim/bundle/editorconfig-vim
+  url = https://github.com/editorconfig/editorconfig-vim.git
+
