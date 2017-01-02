@@ -11,14 +11,10 @@ alias g="git"
 alias gs="git status"
 alias gl="git log"
 alias gf="git fetch --all --prune"
-alias gb="git branch --all"
-alias gp="git push"
-alias gr="git rebase"
-alias gm="git merge"
-alias gc="git checkout"
-alias gd="git diff"
-alias ga="git add"
-alias pjson="python -m json.tool"
+alias vi="vim"
+
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
