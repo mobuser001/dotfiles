@@ -15,6 +15,7 @@ nnoremap <C-k> :tabn<cr>
 nnoremap <C-j> :tabp<cr>
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
+nnoremap <C-p> :FZF<CR>
 
 " Theme
 color idlefingers
