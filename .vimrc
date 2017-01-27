@@ -9,6 +9,7 @@ set list
 set listchars=tab:▸\ ,eol:¬
 syntax on
 set backspace=indent,eol,start
+set timeoutlen=1000 ttimeoutlen=0
 
 " Remaps
 nnoremap <C-k> :tabn<cr>
