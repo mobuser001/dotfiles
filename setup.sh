@@ -32,6 +32,6 @@ echo "Installing fzf"
 brew install fzf
 
 echo "##########################################"
-echo "# Setup completed, now soruce ~/.profile #"
+echo "# Setup completed, now source ~/.profile #"
 echo "##########################################"
 
