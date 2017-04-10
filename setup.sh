@@ -25,6 +25,12 @@ rm -rf lolcat
 echo "Installing figlet"
 brew install figlet
 
+echo "Installing ccat"
+brew install ccat
+
+echo "Installing fzf"
+brew install fzf
+
 echo "##########################################"
 echo "# Setup completed, now soruce ~/.profile #"
 echo "##########################################"

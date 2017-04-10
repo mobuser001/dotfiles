@@ -53,5 +53,9 @@ else
   alias l="ls -al";
 fi
 
+if ccat -v >/dev/null 2>&1; then
+  alias cat=ccat
+fi
+
 alias ll="l"
 
