@@ -68,8 +68,6 @@ PS1_COLORLESS=$(sed 's/[[:space:]]*$//' <<<${PS1:-'\h:\W \u\$'})
 PS1_SPACING=' '
 PS1=''
 
-PS1+=$PS1_SPACING
-
 __ps1_remove_newline__() {
   tr -d '\n'
 }
