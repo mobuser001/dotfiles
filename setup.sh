@@ -28,9 +28,6 @@ brew install figlet
 echo "Installing ccat"
 brew install ccat
 
-echo "Installing fzf"
-brew install fzf
-
 echo "##########################################"
 echo "# Setup completed, now source ~/.profile #"
 echo "##########################################"
