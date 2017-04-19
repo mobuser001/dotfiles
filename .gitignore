@@ -1,5 +1,5 @@
 .DS_Store
 *.swp
-.vim/plugged
+vim/plugged
 *.netrwhist
 

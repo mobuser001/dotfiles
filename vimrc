@@ -25,5 +25,6 @@ color idlefingers
 call plug#begin('~/.vim/plugged')
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'jelera/vim-javascript-syntax'
 call plug#end()
 
