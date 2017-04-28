@@ -6,7 +6,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,trail:·
 syntax on
 set backspace=indent,eol,start
 set timeoutlen=1000 ttimeoutlen=0
