@@ -28,6 +28,9 @@ brew install figlet
 echo "Installing ccat"
 brew install ccat
 
+echo "Installing SilverSearcher (ag)"
+brew install the_silver_searcher
+
 echo "##########################################"
 echo "# Setup completed, now source ~/.profile #"
 echo "##########################################"
