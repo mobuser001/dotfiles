@@ -10,6 +10,9 @@ ln -s $ABSOLUTE_PATH/vim $HOME/.vim
 ln -s $ABSOLUTE_PATH/vimrc $HOME/.vimrc
 ln -s $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 
+echo "Installing git-completion"
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
+
 echo "Installing lolcat-c into /usr/bin/lolcat"
 git clone https://github.com/dosentmatter/lolcat.git
 cd lolcat

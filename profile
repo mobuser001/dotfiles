@@ -25,6 +25,10 @@ export NVM_DIR="$HOME/.nvm"
 # Ruby version manager
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Git completion
+if [ -f $HOME/.git-completion.bash ]; then
+  . $HOME/.git-completion.bash
+fi
 
 # Java stuff
 export MAVEN_OPTS="-Xms512m -Xmx1024m"
