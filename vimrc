@@ -28,5 +28,6 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'jelera/vim-javascript-syntax'
 Plug 'digitaltoad/vim-pug'
+Plug 'tomlion/vim-solidity'
 call plug#end()
 
