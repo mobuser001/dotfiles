@@ -6,7 +6,7 @@ echo "Symlinking dotfiles in $ABSOLUTE_PATH to $HOME"
 ln -sf $ABSOLUTE_PATH/gitconfig $HOME/.gitconfig
 ln -sf $ABSOLUTE_PATH/gitignore $HOME/.gitignore
 ln -sf $ABSOLUTE_PATH/profile $HOME/.profile
-ln -sf $ABSOLUTE_PATH/vim $HOME/.vim
+ln -sfn $ABSOLUTE_PATH/vim $HOME/.vim
 ln -sf $ABSOLUTE_PATH/vimrc $HOME/.vimrc
 ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 
