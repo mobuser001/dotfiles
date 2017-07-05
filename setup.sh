@@ -3,12 +3,12 @@
 ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 echo "Symlinking dotfiles in $ABSOLUTE_PATH to $HOME"
-ln -s $ABSOLUTE_PATH/gitconfig $HOME/.gitconfig
-ln -s $ABSOLUTE_PATH/gitignore $HOME/.gitignore
-ln -s $ABSOLUTE_PATH/profile $HOME/.profile
-ln -s $ABSOLUTE_PATH/vim $HOME/.vim
-ln -s $ABSOLUTE_PATH/vimrc $HOME/.vimrc
-ln -s $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
+ln -sf $ABSOLUTE_PATH/gitconfig $HOME/.gitconfig
+ln -sf $ABSOLUTE_PATH/gitignore $HOME/.gitignore
+ln -sf $ABSOLUTE_PATH/profile $HOME/.profile
+ln -sf $ABSOLUTE_PATH/vim $HOME/.vim
+ln -sf $ABSOLUTE_PATH/vimrc $HOME/.vimrc
+ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 
 echo "Installing git-completion"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
