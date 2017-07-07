@@ -13,7 +13,7 @@ alias gs="git status"
 alias gl="git log"
 alias gf="git fetch --all --prune"
 alias gb="git branch"
-alias gpm="git branch --merged | egrep -v \"(^\*|master)\" | xargs git branch -d"
+alias gdm="git branch --merged | egrep -v \"(^\*|master)\" | xargs git branch -d"
 
 # Fuzzy finder FZF
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
