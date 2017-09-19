@@ -63,5 +63,12 @@ if ccat -v >/dev/null 2>&1; then
   alias cat=ccat
 fi
 
+function fclf() {
+  if [ -n "$1" ]; then
+    echo $@ | figlet -c -w $(tput cols) | lolcat
+  fi
+}
+
+alias clf="fclf"
 alias ll="l"
 
