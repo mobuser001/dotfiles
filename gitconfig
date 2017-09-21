@@ -19,7 +19,7 @@
   co = checkout
   cp = cherry-pick
   pom = push origin HEAD
-  dom = rebase origin/HEAD
+  dom = pull origin master
 [github]
   user = RobertBrewitz
 [branch]  
