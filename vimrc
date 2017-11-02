@@ -29,5 +29,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'jelera/vim-javascript-syntax'
 Plug 'digitaltoad/vim-pug'
 Plug 'tomlion/vim-solidity'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'mxw/vim-jsx'
 call plug#end()
 
