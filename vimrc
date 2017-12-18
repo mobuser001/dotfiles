@@ -32,6 +32,7 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'posva/vim-vue'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 let g:jsx_ext_required = 0
