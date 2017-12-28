@@ -24,16 +24,30 @@ color idlefingers
 
 " Plugins
 call plug#begin('~/.vim/plugged')
+
+" Utils
+Plug 'Shougo/vimproc.vim', { 'do' : 'make' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'tpope/vim-surround'
+Plug 'Valloric/YouCompleteMe'
+
+" Templating
 Plug 'digitaltoad/vim-pug'
-Plug 'tomlion/vim-solidity'
 Plug 'mustache/vim-mustache-handlebars'
+
+" JavaScript, NodeJS, and React
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-Plug 'posva/vim-vue'
-Plug 'tpope/vim-surround'
-call plug#end()
-
 let g:jsx_ext_required = 0
 
+" Solidity
+Plug 'tomlion/vim-solidity'
+
+" TypeScript
+Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'ianks/vim-tsx'
+Plug 'Quramy/tsuquyomi'
+
+call plug#end()
