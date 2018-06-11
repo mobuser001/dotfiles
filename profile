@@ -50,53 +50,48 @@ if lolcat --version >/dev/null 2>&1; then
     fi
   }
 
-  if figlet -v >/dev/null 2>&1; then
-    echo "My oath to myself" | figlet -w $(tput cols) | lolcat
-  else
-    echo "My oath to myself" | lolcat
-  fi
-
 lolcat << EOF
-- I will not produce harmful code.
+# I will not produce harmful code.
 
--- I shall not release defects.
--- I shall not damage the structure of the code.
--- I shall not make the code harder to understand
-   nor change.
+  - I shall not release defects.
+  - I shall not damage the structure of the code.
+  - I shall not make the code harder to understand
+    nor change.
 
-- The code I produce will always be my best work.
+# The code I produce will always be my best work.
 
--- I will not knowingly release code that are defective,
-   either in behavior or structure.
+  - I will not knowingly release code that are defective,
+    either in behavior or structure.
 
-- I will provide, with each release, a quick, sure, and
+# I will provide, with each release, a quick, sure, and
   repeatable proof that every element of the code works
   as it supposed to.
 
--- I will always try my best to achieve perfection
--- I will never accept a certain level of defects
+  - I will always try my best to achieve perfection
+  - I will never accept a certain level of defects
 
-- I will make frequent small releases, I will not impede
+# I will make frequent small releases, I will not impede
   progress
 
-- I will fearlessly and relentlessly improve the code at
+# I will fearlessly and relentlessly improve the code at
   every opportunity, I will never make the code worse.
 
--- With tests
+  - With tests
 
-- I will keep productivity, my own and my team's, high, I
+# I will keep productivity, my own and my team's, high, I
   will do nothing that decreases that productivity.
 
-- I will continously ensure that others can cover for me, and I can cover for them.
+# I will continously ensure that others can cover for me,
+  and I can cover for them.
 
-- I will not make promises without certainty
+# I will not make promises without certainty
 
--- I will be able to say no.
+  - I will be able to say no.
 
-- I will never stop learning and improving my craft.
+# I will never stop learning and improving my craft.
 
--- I will always do it on my own time.
--- I take responsibility for my own learning.
+  - I will always do it on my own time.
+  - I take responsibility for my own learning.
 EOF
 
   if figlet -v >/dev/null 2>&1; then
