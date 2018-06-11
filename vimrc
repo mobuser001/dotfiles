@@ -30,7 +30,6 @@ Plug 'Shougo/vimproc.vim', { 'do' : 'make' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-surround'
-Plug 'Valloric/YouCompleteMe'
 
 " Templating
 Plug 'digitaltoad/vim-pug'
