@@ -1,6 +1,7 @@
 " Configuration
 
-set number
+set nocompatible
+set number relativenumber
 set smartindent
 set expandtab
 set tabstop=2
