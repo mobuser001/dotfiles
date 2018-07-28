@@ -35,9 +35,8 @@ brew install ccat
 echo "Installing SilverSearcher (ag)"
 brew install the_silver_searcher
 
-echo "Installing vim and cmake for YouCompleteMe"
+echo "Installing vim"
 brew install vim --with-override-system-vi
-brew install cmake
 
 echo "##########################################"
 echo "#             Setup completed            #"
@@ -46,5 +45,3 @@ echo ""
 echo "1) source ~/.profile"
 echo "2) vi"
 echo "3) :PlugInstall"
-echo "4) cd ~/.vim/plugged/YouCompleteMe/"
-echo "5) ./install.py --js-completer"
