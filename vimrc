@@ -25,6 +25,7 @@ color idlefingers
 
 " Plugins
 call plug#begin('~/.vim/plugged')
+Plug 'wakatime/vim-wakatime'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-surround'
