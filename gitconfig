@@ -10,6 +10,7 @@
   editor = vi
   whitespace = nowarn
   excludesfile = ~/.gitignore
+  ignorecase = false
 [merge]
   tool = opendiff
 [alias]
