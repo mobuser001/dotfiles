@@ -1,6 +1,8 @@
 [user]
   name = Robert Brewitz
   email = hello@robertbrewitz.com
+[github]
+  user = RobertBrewitz
 [color]
   branch = auto
   diff = auto
@@ -21,8 +23,6 @@
   cp = cherry-pick
   pom = push origin HEAD
   dom = pull origin master
-[github]
-  user = RobertBrewitz
 [branch]  
   autosetuprebase = always
 [push]
