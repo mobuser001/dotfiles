@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Installing chromebrew"
 curl -Ls git.io/vddgY | bash
 
 ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
