@@ -22,6 +22,9 @@ crew install vim
 echo "Installing the silver searcher (ag)"
 crew install ag
 
+echo "Installing go"
+crew install go
+
 echo "Making lolcat (rainbow text)"
 git clone https://github.com/dosentmatter/lolcat.git
 cd lolcat
