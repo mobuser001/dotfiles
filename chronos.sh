@@ -56,3 +56,6 @@ echo "cd" >> ~/.bashrc
 echo "Installs python27 for node-sass binding"
 crew install python27
 
+echo "Changing fzf actions to use alt instead of ctrl in ChromeOS"
+echo "let g:fzf_action = { 'alt-t': 'tab split', 'alt-x': 'split', 'alt-v': 'vsplit' }" >> ~/.vimrc
+
