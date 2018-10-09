@@ -1,9 +1,5 @@
 # Dotfiles
 
-## Prequisits
-
-Activate developer mode on your Chromebook.
-
 ## Setup OS X
 
 ```bash
@@ -13,6 +9,12 @@ sh osx.sh
 ```
 
 ## Setup ChromeOS
+
+### Prequisits
+
+Activate developer mode on your Chromebook.
+
+### Setup
 
 ```bash
 git clone git@github.com:RobertBrewitz/dotfiles.git
