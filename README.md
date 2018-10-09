@@ -1,5 +1,9 @@
 # Dotfiles
 
+## Prequisits
+
+Activate developer mode on your Chromebook.
+
 ## Setup OS X
 
 ```bash
