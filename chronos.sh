@@ -11,6 +11,9 @@ ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 ln -sf $ABSOLUTE_PATH/tern-project $HOME/.tern-project
 ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
 
+echo "Adds exec permissions to chronos home directory"
+echo "sudo mount -i -o remount,exec /home/chronos/user" >> ~/.bashrc
+
 echo "Installing chromebrew, ruby, and git"
 curl -Ls git.io/vddgY | bash
 
