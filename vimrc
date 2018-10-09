@@ -27,7 +27,7 @@ color idlefingers
 call plug#begin('~/.vim/plugged')
 Plug 'wakatime/vim-wakatime'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf'
 Plug 'tpope/vim-surround'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'

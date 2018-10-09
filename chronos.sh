@@ -26,6 +26,9 @@ crew install vim
 echo "Installing the silver searcher (ag)"
 crew install ag
 
+echo "Installing fzf"
+crew install fzf
+
 echo "Installing go"
 crew install go
 

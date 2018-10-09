@@ -36,6 +36,9 @@ brew install ccat
 echo "Installing SilverSearcher (ag)"
 brew install the_silver_searcher
 
+echo "Installing fzf"
+brew install fzf
+
 echo "Installing vim"
 brew install vim --with-override-system-vi
 
