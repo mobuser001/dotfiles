@@ -52,3 +52,7 @@ echo ". ~/.profile" >> ~/.bashrc
 
 echo "Move to home directory after sourcing"
 echo "cd" >> ~/.bashrc
+
+echo "Installs python27 for node-sass binding"
+crew install python27
+
