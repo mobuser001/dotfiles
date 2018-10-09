@@ -51,6 +51,7 @@ hi Visual               guibg=#666666 ctermbg=241
 hi VisualNOS            guifg=#000000 ctermfg=0 guibg=fg
 hi WarningMsg           guifg=#D8D8D8 ctermfg=188 guibg=#ff6347 ctermbg=203
 hi WildMenu             guifg=#000000 ctermfg=0 guibg=#ffff00 ctermbg=11
+hi SignColumn           guibg=black
 
 
 " Colors for syntax highlighting
