@@ -38,3 +38,5 @@ rm -rf lolcat
 echo "Installing figlet"
 crew install figlet
 
+echo "Adding ~/.profile to ~/.bashrc"
+echo ". ~/.profile" >> ~/.bashrc
