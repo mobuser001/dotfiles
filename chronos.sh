@@ -57,3 +57,11 @@ echo "cd" >> ~/.bashrc
 
 echo "Installs python27 for node-sass binding"
 crew install python27
+
+echo "##########################################"
+echo "#             Setup completed            #"
+echo "##########################################"
+echo ""
+echo "1) source ~/.bashrc"
+echo "2) vi"
+echo "3) :PlugInstall"
