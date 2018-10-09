@@ -1,0 +1,1 @@
+let g:fzf_action = { 'alt-t': 'tab split', 'alt-x': 'split', 'alt-v': 'vsplit' }

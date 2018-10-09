@@ -7,6 +7,7 @@ ln -sf $ABSOLUTE_PATH/gitignore $HOME/.gitignore
 ln -sf $ABSOLUTE_PATH/profile $HOME/.profile
 ln -sfn $ABSOLUTE_PATH/vim $HOME/.vim
 ln -sf $ABSOLUTE_PATH/vimrc $HOME/.vimrc
+ln -sf $ABSOLUTE_PATH/vimrc_chronos $HOME/.vimrc_chronos
 ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 ln -sf $ABSOLUTE_PATH/tern-project $HOME/.tern-project
 ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
@@ -58,7 +59,3 @@ echo "cd" >> ~/.bashrc
 
 echo "Installs python27 for node-sass binding"
 crew install python27
-
-echo "Changing fzf actions to use alt instead of ctrl in ChromeOS"
-echo "let g:fzf_action = { 'alt-t': 'tab split', 'alt-x': 'split', 'alt-v': 'vsplit' }" >> ~/.vimrc
-
