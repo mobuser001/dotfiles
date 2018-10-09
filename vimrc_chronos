@@ -1,1 +1,3 @@
 let g:fzf_action = { 'alt-t': 'tab split', 'alt-x': 'split', 'alt-v': 'vsplit' }
+let base16colorspace=256
+set termguicolors
