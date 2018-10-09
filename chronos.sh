@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Installing vim 8+"
-curl -Ls git.io/vddgY | bash
-
 ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 ln -sf $ABSOLUTE_PATH/gitconfig $HOME/.gitconfig
@@ -13,6 +10,12 @@ ln -sf $ABSOLUTE_PATH/vimrc $HOME/.vimrc
 ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 ln -sf $ABSOLUTE_PATH/tern-project $HOME/.tern-project
 ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
+
+echo "Installing chromebrew and git"
+curl -Ls git.io/vddgY | bash
+
+echo "Installing nvm"
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 echo "Installing git-completion"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
