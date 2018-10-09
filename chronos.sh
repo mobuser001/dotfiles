@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing chromebrew"
+echo "Installing vim 8+"
 curl -Ls git.io/vddgY | bash
 
 ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
