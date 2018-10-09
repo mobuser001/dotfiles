@@ -40,3 +40,6 @@ crew install figlet
 
 echo "Adding ~/.profile to ~/.bashrc"
 echo ". ~/.profile" >> ~/.bashrc
+
+echo "Move to home directory after sourcing"
+echo "cd" >> ~/.bashrc
