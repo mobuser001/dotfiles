@@ -9,7 +9,7 @@
   interactive = auto
   status = auto
 [core]
-  editor = vi
+  editor = vim
   whitespace = nowarn
   excludesfile = ~/.gitignore
   ignorecase = false
