@@ -27,6 +27,9 @@ echo "Cleaning up lolcat-c installation"
 cd ..
 rm -rf lolcat
 
+echo "Installing homebrew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 echo "Installing figlet"
 brew install figlet
 
