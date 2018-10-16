@@ -41,4 +41,6 @@ highlight SignColumn ctermbg=black
 
 " Load environment specific vim config
 let $VIMRC_CHRONOS='~/.vimrc_chronos'
-source $VIMRC_CHRONOS
+if filereadable(expand($VIMRC_CHRONOS))
+  source $VIMRC_CHRONOS
+endif
