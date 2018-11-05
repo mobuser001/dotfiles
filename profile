@@ -39,10 +39,6 @@ export MAVEN_OPTS="-Xms512m -Xmx1024m"
 ##
 # Rainbow stuff
 if lolcat --version >/dev/null 2>&1; then
-  if [ -f ~/.bash_lolcat ]; then
-    . ~/.bash_lolcat
-  fi
-
   function l() {
     if [ -n "$1" ]; then
       ls -al "$1" | lolcat;
