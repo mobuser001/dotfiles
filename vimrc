@@ -44,3 +44,8 @@ let $VIMRC_CHRONOS='~/.vimrc_chronos'
 if filereadable(expand($VIMRC_CHRONOS))
   source $VIMRC_CHRONOS
 endif
+
+let $VIMRC_WIN10='~/.vimrc_win10'
+if filereadable(expand($VIMRC_WIN10))
+  source $VIMRC_WIN10
+endif
