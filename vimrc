@@ -12,6 +12,9 @@ syntax on
 set backspace=indent,eol,start
 set timeoutlen=1000 ttimeoutlen=0
 
+" Linux line endings
+set ff=unix
+
 " Remaps
 nnoremap <C-k> :tabn<cr>
 nnoremap <C-j> :tabp<cr>
