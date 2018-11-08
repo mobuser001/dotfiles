@@ -16,8 +16,8 @@ set timeoutlen=1000 ttimeoutlen=0
 set ff=unix
 
 " Remaps
-nnoremap <C-k> :tabn<cr>
-nnoremap <C-j> :tabp<cr>
+nnoremap <S-k> :tabn<cr>
+nnoremap <S-j> :tabp<cr>
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
 nnoremap <C-p> :FZF<cr>
