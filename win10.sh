@@ -24,8 +24,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 
 echo "Installing rvm and ruby"
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-curl -sSL https://get.rvm.io | bash -s stable
-rvm get stable --auto-dotfiles
+curl -sSL https://get.rvm.io | bash -s stable --ruby
 
 echo "Installing the silver searcher (ag)"
 sudo apt install silversearcher-ag -y
@@ -38,6 +37,9 @@ sudo apt install figlet -y
 
 echo "Adding ~/.profile to ~/.bashrc"
 echo ". ~/.profile" >> ~/.bashrc
+
+echo "Installing tmux"
+sudo apt install tmux
 
 echo "##########################################"
 echo "#             Setup completed            #"
