@@ -52,3 +52,12 @@ let $VIMRC_WIN10='~/.vimrc_win10'
 if filereadable(expand($VIMRC_WIN10))
   source $VIMRC_WIN10
 endif
+
+" WSL yank support
+let s:clip = '/mnt/c/Windows/System32/clip.exe'
+if executable(s:clip)
+  augroup WSLYank
+    autocmd!
+    autocmd TextYankPost * call system('echo '.shellescape(join(v:event.regcontents, "\<CR>")).' | '.s:clip)
+  augroup END
+end
