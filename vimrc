@@ -18,10 +18,10 @@ set ff=unix
 " Remaps
 nnoremap <S-k> :tabn<cr>
 nnoremap <S-j> :tabp<cr>
-nnoremap <C-h> <C-w><C-h>
-nnoremap <C-l> <C-w><C-l>
+nnoremap <S-h> <C-w><C-h>
+nnoremap <S-l> <C-w><C-l>
 nnoremap <C-p> :FZF<cr>
-vnoremap <C-C> "+y
+vnoremap <C-C> "*y
 
 " Theme
 color idlefingers
