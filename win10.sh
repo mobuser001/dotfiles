@@ -48,6 +48,9 @@ sudo apt install tmux -y
 echo "Installing vim-gtk"
 sudo apt install vim-gtk -y
 
+echo "Installing editorconfig core"
+sudo apt install editorconfig
+
 echo "##########################################"
 echo "#             Setup completed            #"
 echo "##########################################"

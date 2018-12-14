@@ -39,6 +39,9 @@ brew install fzf
 echo "Installing vim"
 brew install vim --with-override-system-vi
 
+echo "Installing editorconfig core"
+brew install editorconfig
+
 echo "##########################################"
 echo "#             Setup completed            #"
 echo "##########################################"
