@@ -12,6 +12,11 @@ syntax on
 set backspace=indent,eol,start
 set timeoutlen=1000 ttimeoutlen=0
 
+" Status line
+set laststatus=2
+set statusline=%#LineNr#
+set statusline+=\ %f
+
 " Linux line endings
 set ff=unix
 
