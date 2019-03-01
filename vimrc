@@ -43,6 +43,11 @@ autocmd BufEnter * execute 'sign place 9999 line=1 name=dummy buffer=' . bufnr('
 highlight SignColumn ctermbg=black
 
 " Load environment specific vim config
+let $VIMRC_OSX='~/.vimrc_osx'
+if filereadable(expand($VIMRC_OSX))
+  source $VIMRC_OSX
+endif
+
 let $VIMRC_CHRONOS='~/.vimrc_chronos'
 if filereadable(expand($VIMRC_CHRONOS))
   source $VIMRC_CHRONOS

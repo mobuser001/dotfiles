@@ -8,9 +8,11 @@ ln -sf $ABSOLUTE_PATH/gitignore $HOME/.gitignore
 ln -sf $ABSOLUTE_PATH/profile $HOME/.profile
 ln -sfn $ABSOLUTE_PATH/vim $HOME/.vim
 ln -sf $ABSOLUTE_PATH/vimrc $HOME/.vimrc
+ln -sf $ABSOLUTE_PATH/vimrc_osx $HOME/.vimrc_osx
 ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 ln -sf $ABSOLUTE_PATH/tern-project $HOME/.tern-project
 ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
+ln -sf $ABSOLUTE_PATH/tmux.conf $HOME/.tmux.conf
 
 echo "Installing git-completion"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
