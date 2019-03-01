@@ -2,14 +2,17 @@
 
 ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+echo "Symlinking dotfiles in $ABSOLUTE_PATH to $HOME"
 ln -sf $ABSOLUTE_PATH/gitconfig $HOME/.gitconfig
 ln -sf $ABSOLUTE_PATH/gitignore $HOME/.gitignore
 ln -sf $ABSOLUTE_PATH/profile $HOME/.profile
 ln -sfn $ABSOLUTE_PATH/vim $HOME/.vim
 ln -sf $ABSOLUTE_PATH/vimrc $HOME/.vimrc
 ln -sf $ABSOLUTE_PATH/vimrc_win10 $HOME/.vimrc_win10
+ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 ln -sf $ABSOLUTE_PATH/tern-project $HOME/.tern-project
 ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
+ln -sf $ABSOLUTE_PATH/tmux.conf $HOME/.tmux.conf
 
 echo "Upgrading and Updateing apt"
 sudo apt-get update -y
