@@ -10,7 +10,7 @@ sh osx.sh
 
 ## Setup ChromeOS
 
-### Prequisits
+### Prerequisite
 
 Activate developer mode on your Chromebook.
 
@@ -24,7 +24,7 @@ sh chronos.sh
 
 ## Setup Windows 10 WSL
 
-### Prequisits
+### Prerequisite
 
 Activate developer mode on your Windows and install Ubuntu WSL.
 
