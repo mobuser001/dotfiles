@@ -17,8 +17,15 @@ ln -sf $ABSOLUTE_PATH/tmux.conf $HOME/.tmux.conf
 echo "Installing git-completion"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
 
-echo "Installing lolcat"
-gem install lolcat
+echo "Installing lolcat-c into /usr/bin/lolcat"
+git clone https://github.com/dosentmatter/lolcat.git
+cd lolcat
+git submodule init
+git submodule update
+make lolcat
+cp lolcat /usr/local/bin/
+cd ..
+rm -rf lolcat
 
 echo "Installing homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
