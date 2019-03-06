@@ -59,7 +59,7 @@ if filereadable(expand($VIMRC_CHRONOS))
   source $VIMRC_CHRONOS
 endif
 
-let $VIMRC_WIN10='~/.vimrc_win10'
-if filereadable(expand($VIMRC_WIN10))
-  source $VIMRC_WIN10
+let $VIMRC_WSL='~/.vimrc_wsl'
+if filereadable(expand($VIMRC_WSL))
+  source $VIMRC_WSL
 endif

@@ -33,7 +33,7 @@ Activate developer mode on your Windows and install Ubuntu WSL.
 ```bash
 git clone git@github.com:RobertBrewitz/dotfiles.git
 cd dotfiles
-sh win10.sh
+sh wsl.sh
 ```
 
 ## .gitconfig
