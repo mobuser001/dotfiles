@@ -48,6 +48,9 @@ brew install fzf
 echo "Installing vim"
 brew install vim --with-override-system-vi
 
+echo "Installing tmux"
+brew install tmux
+
 echo "Installing editorconfig core"
 brew install editorconfig
 
