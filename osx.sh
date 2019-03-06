@@ -54,6 +54,9 @@ brew install tmux
 echo "Installing editorconfig core"
 brew install editorconfig
 
+echo "Disabling scrollbar in Terminal.app"
+defaults write com.apple.Terminal AppleShowScrollBars -string WhenScrolling
+
 echo "##########################################"
 echo "#             Setup completed            #"
 echo "##########################################"
