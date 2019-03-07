@@ -4,14 +4,11 @@ PS1='$(printf "%$((COLUMNS-1))s\r")'$PS1
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export CLICOLOR=1
 
-# General
+# Aliases
 alias ..="cd .."
 alias vi="vim"
-
-# Git
 alias g="git"
 alias gs="git status"
-alias gl="git log"
 alias gf="git fetch --all --prune"
 alias gb="git branch"
 alias gdm="git branch --merged | egrep -v \"(^\*|master)\" | xargs git branch -d"
@@ -51,6 +48,8 @@ if lolcat --version >/dev/null 2>&1; then
       ls -al | lolcat;
     fi
   }
+
+  alias gl="git log | lolcat | less --raw"
 
 lolcat << EOF
 # I will not produce harmful code.
@@ -104,6 +103,7 @@ EOF
 
 else
   alias l="ls -al";
+  alias gl="git log"
 fi
 
 if ccat -v >/dev/null 2>&1; then
