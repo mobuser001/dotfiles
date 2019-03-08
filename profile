@@ -1,5 +1,5 @@
 PS1="\w :. "
-PS1='$(printf "%$((COLUMNS-1))s\r")'$PS1
+#PS1='$(printf "%$((COLUMNS-1))s\r")'$PS1
 
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export CLICOLOR=1
@@ -8,7 +8,6 @@ export CLICOLOR=1
 alias ..="cd .."
 alias vi="vim"
 alias g="git"
-alias gs="git status"
 alias gf="git fetch --all --prune"
 alias gb="git branch"
 alias gdm="git branch --merged | egrep -v \"(^\*|master)\" | xargs git branch -d"
@@ -50,6 +49,7 @@ if lolcat --version >/dev/null 2>&1; then
   }
 
   alias gl="git log | lolcat | less --raw"
+  alias gs="git status | lolcat"
 
 lolcat << EOF
 # I will not produce harmful code.
@@ -104,6 +104,7 @@ EOF
 else
   alias l="ls -al";
   alias gl="git log"
+  alias gs="git status"
 fi
 
 if ccat -v >/dev/null 2>&1; then
