@@ -11,6 +11,7 @@ alias g="git"
 alias gf="git fetch --all --prune"
 alias gb="git branch"
 alias gdm="git branch --merged | egrep -v \"(^\*|master)\" | xargs git branch -d"
+alias gs="git status"
 
 # Fuzzy finder FZF
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
@@ -49,7 +50,6 @@ if lolcat --version >/dev/null 2>&1; then
   }
 
   alias gl="git log | lolcat | less --raw"
-  alias gs="git status | lolcat"
 
 lolcat << EOF
 # I will not produce harmful code.
@@ -104,7 +104,6 @@ EOF
 else
   alias l="ls -al";
   alias gl="git log"
-  alias gs="git status"
 fi
 
 if ccat -v >/dev/null 2>&1; then
