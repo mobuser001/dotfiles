@@ -23,7 +23,8 @@ cd lolcat
 git submodule init
 git submodule update
 make lolcat
-cp lolcat /usr/local/bin/
+echo "To symlnk lolcat your sudo password is required."
+sudo cp lolcat /usr/local/bin/
 cd ..
 rm -rf lolcat
 
