@@ -46,8 +46,8 @@ brew install the_silver_searcher
 echo "Installing fzf"
 brew install fzf
 
-echo "Installing vim"
-brew install vim --with-override-system-vi
+echo "Installing vim to include clipboard"
+brew install vim
 
 echo "Installing tmux"
 brew install tmux
