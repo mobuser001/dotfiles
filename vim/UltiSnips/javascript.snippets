@@ -10,6 +10,54 @@ context('$1', () => {
 });
 endsnippet
 
+snippet bef "before"
+before(() => {
+  $0
+});
+endsnippet
+
+snippet befa "async before"
+before(async() => {
+  $0
+});
+endsnippet
+
+snippet befe "before each"
+beforeEach(() => {
+  $0
+});
+endsnippet
+
+snippet befea "async before each"
+beforeEach(async() => {
+  $0
+});
+endsnippet
+
+snippet aft "after"
+after(() => {
+  $0
+});
+endsnippet
+
+snippet afta "async after"
+after(async() => {
+  $0
+});
+endsnippet
+
+snippet afte "after each"
+afterEach(() => {
+  $0
+});
+endsnippet
+
+snippet aftea "async after each"
+afterEach(async() => {
+  $0
+});
+endsnippet
+
 snippet it "it block"
 it('$1', () => {
   $0
