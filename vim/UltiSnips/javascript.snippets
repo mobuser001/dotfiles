@@ -22,6 +22,18 @@ before(async() => {
 });
 endsnippet
 
+snippet jbef "jest before"
+beforeAll(() => {
+  $0
+});
+endsnippet
+
+snippet jbefa "jest async before"
+beforeAll(async() => {
+  $0
+});
+
+endsnippet
 snippet befe "before each"
 beforeEach(() => {
   $0
@@ -41,6 +53,18 @@ after(() => {
 endsnippet
 
 snippet afta "async after"
+after(async() => {
+  $0
+});
+endsnippet
+
+snippet jaft "jest after"
+after(() => {
+  $0
+});
+endsnippet
+
+snippet jafta "jest async after"
 after(async() => {
   $0
 });
