@@ -31,6 +31,7 @@ nnoremap <S-j> :tabp<cr>
 nnoremap <S-h> <C-w><C-h>
 nnoremap <S-l> <C-w><C-l>
 nnoremap <C-p> :FZF<cr>
+nnoremap ; :
 vnoremap <C-C> "*y
 
 " Theme
