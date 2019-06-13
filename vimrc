@@ -16,6 +16,8 @@ set listchars=tab:▸\ ,eol:¬,trail:·
 syntax on
 set backspace=indent,eol,start
 set timeoutlen=1000 ttimeoutlen=0
+set splitbelow
+set splitright
 
 " Status line
 set laststatus=2
