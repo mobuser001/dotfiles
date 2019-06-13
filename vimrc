@@ -34,9 +34,6 @@ nnoremap <C-p> :FZF<cr>
 nnoremap ; :
 vnoremap <C-C> "*y
 
-" Theme
-color idlefingers
-
 " Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'wakatime/vim-wakatime'
