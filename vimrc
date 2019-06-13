@@ -36,18 +36,36 @@ vnoremap <C-C> "*y
 
 " Plugins
 call plug#begin('~/.vim/plugged')
-Plug 'wakatime/vim-wakatime'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'junegunn/fzf'
-Plug 'tpope/vim-surround'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+Plug 'RobertBrewitz/editorconfig-vim'
+Plug 'RobertBrewitz/fzf'
+Plug 'RobertBrewitz/vim-surround'
+Plug 'RobertBrewitz/vim-javascript'
+Plug 'RobertBrewitz/vim-jsx'
 let g:jsx_ext_required = 0
-Plug 'SirVer/ultisnips'
+Plug 'RobertBrewitz/ultisnips'
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+Plug 'RobertBrewitz/jellybeans.vim'
+Plug 'RobertBrewitz/rainbow_levels.vim'
+map <leader>l :RainbowLevelsToggle<cr>
 call plug#end()
+
+" Theme
+color jellybeans
+
+" Rainbow
+hi default link RainbowLevel0 Function
+hi default link RainbowLevel1 String
+hi default link RainbowLevel2 PreProc
+hi default link RainbowLevel3 Statement
+hi default link RainbowLevel4 Identifier
+hi default link RainbowLevel5 Constant
+hi default link RainbowLevel6 Type
+
+for level in range(0, 6)
+  exe 'hi! link RainbowLevel'.(level+7).' RainbowLevel'.level
+endfor
 
 " Always show signs gutter
 autocmd BufEnter * sign define dummy
