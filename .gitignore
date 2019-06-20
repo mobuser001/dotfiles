@@ -2,4 +2,5 @@
 *.swp
 vim/plugged
 *.netrwhist
+npmrc
 
