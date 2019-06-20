@@ -59,13 +59,13 @@ call plug#end()
 color jellybeans
 
 " Rainbow
-hi default link RainbowLevel0 Function
+hi default link RainbowLevel0 PreProc
 hi default link RainbowLevel1 String
-hi default link RainbowLevel2 PreProc
-hi default link RainbowLevel3 Statement
-hi default link RainbowLevel4 Identifier
-hi default link RainbowLevel5 Constant
-hi default link RainbowLevel6 Type
+hi default link RainbowLevel2 Function
+hi default link RainbowLevel3 Type
+hi default link RainbowLevel4 Constant
+hi default link RainbowLevel5 Identifier
+hi default link RainbowLevel6 Statement
 
 for level in range(0, 6)
   exe 'hi! link RainbowLevel'.(level+7).' RainbowLevel'.level
