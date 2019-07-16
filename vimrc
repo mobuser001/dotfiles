@@ -18,6 +18,7 @@ set backspace=indent,eol,start
 set timeoutlen=1000 ttimeoutlen=0
 set splitbelow
 set splitright
+set backupcopy=yes
 
 " Status line
 set laststatus=2
