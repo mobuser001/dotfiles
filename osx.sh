@@ -50,7 +50,7 @@ echo "Installing vim to include clipboard"
 brew install vim
 
 echo "Installing tmux"
-brew install tmux reattach-to-user-namespace
+brew install tmux
 
 echo "Installing editorconfig core"
 brew install editorconfig
