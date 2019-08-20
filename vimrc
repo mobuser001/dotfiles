@@ -36,8 +36,6 @@ set laststatus=2
 " Remaps
 nnoremap <S-k> :tabn<cr>
 nnoremap <S-j> :tabp<cr>
-"nnoremap <S-k> <C-w><C-k>
-"nnoremap <S-j> <C-w><C-j>
 nnoremap <S-h> <C-w><C-h>
 nnoremap <S-l> <C-w><C-l>
 nnoremap <C-p> :FZF<cr>
