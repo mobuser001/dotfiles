@@ -19,6 +19,7 @@ set timeoutlen=1000 ttimeoutlen=0
 set splitbelow
 set splitright
 set backupcopy=yes
+set secure
 
 " Status line
 set laststatus=2
