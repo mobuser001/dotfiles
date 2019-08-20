@@ -1,33 +1,37 @@
+" Being considerate
+set nocompatible
+set secure
+set ff=unix
+
 " Encoding
 scriptencoding utf-8
 set encoding=utf-8
 
-" Configuration
+" Allow backspace
+set backspace=indent,eol,start
 
-set nocompatible
-set number relativenumber
-set smartindent
+" Syntax highlighting
+syntax on
+
+" Indentation & whitespace
 set autoindent
+set smartindent
+set shiftwidth=2
 set expandtab
 set tabstop=2
-set shiftwidth=2
-set list
 set listchars=tab:▸\ ,eol:¬,trail:·
-syntax on
-set backspace=indent,eol,start
-set timeoutlen=1000 ttimeoutlen=0
-set splitbelow
-set splitright
-set backupcopy=yes
-set secure
+set list
 
-" Status line
+" Gutter
+set number relativenumber
+
+" Command timeouts
+set timeoutlen=1000
+set ttimeoutlen=0
+
+" Status
+set showtabline=2
 set laststatus=2
-set statusline=%#LineNr#
-set statusline+=\ %f
-
-" Linux line endings
-set ff=unix
 
 " Remaps
 nnoremap <S-k> :tabn<cr>
