@@ -75,11 +75,6 @@ for level in range(0, 6)
   exe 'hi! link RainbowLevel'.(level+7).' RainbowLevel'.level
 endfor
 
-" Always show signs gutter
-autocmd BufEnter * sign define dummy
-autocmd BufEnter * execute 'sign place 9999 line=1 name=dummy buffer=' . bufnr('')
-highlight SignColumn ctermbg=none
-
 " Load environment specific vim config
 let $VIMRC_OSX='~/.vimrc_osx'
 if filereadable(expand($VIMRC_OSX))
