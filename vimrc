@@ -76,17 +76,17 @@ for level in range(0, 6)
 endfor
 
 " Load environment specific vim config
-let $VIMRC_OSX='~/.vimrc_osx'
+let $VIMRC_OSX=$HOME . '/.vimrc_osx'
 if filereadable(expand($VIMRC_OSX))
   source $VIMRC_OSX
 endif
 
-let $VIMRC_CHRONOS='~/.vimrc_chronos'
+let $VIMRC_CHRONOS=$HOME . '/.vimrc_chronos'
 if filereadable(expand($VIMRC_CHRONOS))
   source $VIMRC_CHRONOS
 endif
 
-let $VIMRC_WSL='~/.vimrc_wsl'
+let $VIMRC_WSL=$HOME . '/.vimrc_wsl'
 if filereadable(expand($VIMRC_WSL))
   source $VIMRC_WSL
 endif
