@@ -13,6 +13,7 @@ ln -sf $ABSOLUTE_PATH/vimrc_chronos $HOME/.vimrc_chronos
 ln -sf $ABSOLUTE_PATH/tern-project $HOME/.tern-project
 ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
 ln -sf $ABSOLUTE_PATH/tmux.conf $HOME/.tmux.conf
+ln -sf $ABSOLUTE_PATH/ctags $HOME/.ctags
 
 echo "Adds exec permissions to chronos home directory"
 echo "sudo mount -i -o remount,exec /home/chronos/user" >> ~/.bashrc

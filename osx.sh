@@ -13,6 +13,7 @@ ln -sf $ABSOLUTE_PATH/bash_lolcat $HOME/.bash_lolcat
 ln -sf $ABSOLUTE_PATH/tern-project $HOME/.tern-project
 ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
 ln -sf $ABSOLUTE_PATH/tmux.conf $HOME/.tmux.conf
+ln -sf $ABSOLUTE_PATH/ctags $HOME/.ctags
 
 echo "Installing git-completion"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
