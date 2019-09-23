@@ -1,11 +1,12 @@
+scriptencoding utf-8
+
+" Encoding
+set encoding=utf-8
+
 " Being considerate
 set nocompatible
 set secure
 set ff=unix
-
-" Encoding
-scriptencoding utf-8
-set encoding=utf-8
 
 " Allow backspace
 set backspace=indent,eol,start
