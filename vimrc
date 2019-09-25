@@ -34,6 +34,9 @@ set ttimeoutlen=0
 set showtabline=2
 set laststatus=2
 
+" Tags
+set tags=tags;/
+
 " Remaps
 nnoremap <S-k> :tabn<cr>
 nnoremap <S-j> :tabp<cr>
