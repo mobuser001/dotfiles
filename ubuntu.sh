@@ -15,7 +15,7 @@ ln -sf $ABSOLUTE_PATH/npmrc $HOME/.npmrc
 ln -sf $ABSOLUTE_PATH/tmux.conf $HOME/.tmux.conf
 ln -sf $ABSOLUTE_PATH/ctags $HOME/.ctags
 
-echo "Upgrading and Updateing apt"
+echo "Upgrading and updating apt"
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
