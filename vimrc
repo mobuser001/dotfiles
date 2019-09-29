@@ -95,3 +95,8 @@ let $VIMRC_WSL=$HOME . '/.vimrc_wsl'
 if filereadable(expand($VIMRC_WSL))
   source $VIMRC_WSL
 endif
+
+let $VIMRC_UBUNTU=$HOME . '/.vimrc_ubuntu'
+if filereadable(expand($VIMRC_UBUNTU))
+  source $VIMRC_UBUNTU
+endif

@@ -13,6 +13,8 @@ alias gb="git branch"
 alias gdm="git branch --merged | egrep -v \"(^\*|master)\" | xargs git branch -d"
 alias gss="git submodule sync --recursive && git submodule update --init --recursive"
 alias gs="git status"
+alias gl="git log"
+alias l="ls -al"
 
 # Fuzzy finder FZF
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
@@ -101,10 +103,6 @@ EOF
   else
     echo "Focus, commitment, and sheer fn will!" | lolcat
   fi
-
-else
-  alias l="ls -al";
-  alias gl="git log"
 fi
 
 if ccat -v >/dev/null 2>&1; then
