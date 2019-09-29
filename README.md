@@ -36,6 +36,16 @@ cd dotfiles
 sh wsl.sh
 ```
 
+## Setup Ubuntu
+
+### Setup
+
+```bash
+git clone git@github.com:RobertBrewitz/dotfiles.git
+cd dotfiles
+sh ubuntu.sh
+```
+
 ## .gitconfig
 
 Update .gitconfig email, user, and username.
