@@ -61,6 +61,7 @@ Plug 'RobertBrewitz/jellybeans.vim'
 Plug 'RobertBrewitz/rainbow_levels.vim'
 map <leader>l :RainbowLevelsToggle<cr>
 Plug 'RobertBrewitz/typescript-vim'
+Plug 'RobertBrewitz/vim-svelte'
 call plug#end()
 
 " Theme
