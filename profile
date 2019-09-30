@@ -1,3 +1,5 @@
+export LC_ALL=en_US.UTF-8
+
 PS1="\w :. "
 #PS1='$(printf "%$((COLUMNS-1))s\r")'$PS1
 
