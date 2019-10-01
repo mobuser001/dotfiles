@@ -61,6 +61,11 @@ Plug 'RobertBrewitz/jellybeans.vim'
 Plug 'RobertBrewitz/rainbow_levels.vim'
 map <leader>l :RainbowLevelsToggle<cr>
 Plug 'RobertBrewitz/typescript-vim'
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+autocmd FileType typescript :set makeprg=tsc
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost l* nested lwindow
 Plug 'RobertBrewitz/vim-svelte'
 call plug#end()
 
