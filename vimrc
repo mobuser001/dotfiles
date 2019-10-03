@@ -36,6 +36,8 @@ set laststatus=2
 
 " Tags
 set tags=tags;/
+set tags+=tstags;/
+set tags+=jstags;/
 
 " Remaps
 nnoremap <S-k> :tabn<cr>

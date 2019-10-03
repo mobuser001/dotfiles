@@ -119,6 +119,5 @@ function fclf() {
 
 alias clf="fclf"
 alias ll="l"
-
-alias jstags="ctags -R . && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:js$/d' tags"
-alias tstags="ctags -R . && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:ts$/d' tags"
+alias jstags="ctags -f jstags -R . && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:js$/d' jstags"
+alias tstags="ctags -f tstags -R . && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:ts$/d' tstags"
