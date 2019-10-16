@@ -40,8 +40,6 @@ set tags+=tstags;/
 set tags+=jstags;/
 
 " Folding
-set foldmethod=indent
-set foldnestmax=1
 set nofoldenable
 
 " Remaps
