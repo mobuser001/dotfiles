@@ -38,6 +38,7 @@ set laststatus=2
 set tags=tags;/
 set tags+=tstags;/
 set tags+=jstags;/
+nnoremap <C-j> <C-w><C-]><C-w>T
 
 " Folding
 set nofoldenable
