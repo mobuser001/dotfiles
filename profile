@@ -120,4 +120,4 @@ function fclf() {
 alias clf="fclf"
 alias ll="l"
 alias jstags="ctags -f jstags -R --exclude=*.ts --exlude=*.tsx --exclude=*.html . && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:js$/d' jstags"
-alias tstags="ctags -f tstags -R --exclude=*.js --exclude=*.tsx --exclude=*.html . && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:ts$/d' tstags"
+alias tstags="ctags -f tstags -R --exclude=*.js --exclude=*.jsx --exclude=*.html . && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:ts$/d' tstags"
