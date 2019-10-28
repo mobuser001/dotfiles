@@ -72,7 +72,7 @@ autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost l* nested lwindow
 Plug 'RobertBrewitz/vim-svelte'
 Plug 'RobertBrewitz/vim-prettier', {
-  \ 'do': 'yarn install',
+  \ 'do': 'npx yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 call plug#end()
 
