@@ -18,6 +18,9 @@ ln -sf $ABSOLUTE_PATH/ctags $HOME/.ctags
 echo "Installing git-completion"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
 
+echo "Installing homebrew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 echo "Installing lolcat-c into /usr/bin/lolcat"
 git clone https://github.com/dosentmatter/lolcat.git
 cd lolcat
@@ -28,9 +31,6 @@ echo "To symlnk lolcat your sudo password is required."
 sudo cp lolcat /usr/local/bin/
 cd ..
 rm -rf lolcat
-
-echo "Installing homebrew"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing nvm"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
