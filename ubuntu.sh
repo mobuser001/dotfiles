@@ -19,7 +19,11 @@ echo "Upgrading and updating apt"
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
+echo "Installing dependencies"
+sudo apt-get install curl -y
+
 echo "Installing nvm"
+if [! -d "$HOME/.nvm"] && mkdir $HOME/.nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 echo "Installing node lts"

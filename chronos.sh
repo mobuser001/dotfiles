@@ -22,6 +22,7 @@ echo "Installing chromebrew, ruby, and git"
 curl -Ls git.io/vddgY | bash
 
 echo "Installing nvm"
+if [! -d "$HOME/.nvm"] && mkdir $HOME/.nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 echo "Installing git-completion"
