@@ -57,6 +57,11 @@ sudo apt install vim-gnome -y
 echo "Installing editorconfig core"
 sudo apt install editorconfig
 
+echo "Setting up 33ms key-repeat with 201ms delay"
+gsettings set org.gnome.desktop.peripherals.keyboard repeat true
+gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 33
+gsettings set org.gnome.desktop.peripherals.keyboard delay 201
+
 echo "##########################################"
 echo "#             Setup completed            #"
 echo "##########################################"
