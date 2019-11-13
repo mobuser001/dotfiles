@@ -29,6 +29,7 @@ echo "Installing git-completion"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $HOME/.git-completion.bash
 
 echo "Installing lolcat-c into /usr/local/bin/lolcat"
+sudo apt install make gcc -y
 git clone https://github.com/dosentmatter/lolcat.git
 cd lolcat
 make
