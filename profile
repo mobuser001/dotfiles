@@ -54,6 +54,7 @@ if lolcat --version >/dev/null 2>&1; then
     fi
   }
 
+  alias l=l
   alias gl="git log | lolcat | less --raw"
 
 lolcat << EOF
