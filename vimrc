@@ -43,10 +43,6 @@ nnoremap <C-j> <C-w><C-]><C-w>T
 " Folding
 set nofoldenable
 
-" Clipboard
-set clipboard=unnamedplus
-vnoremap <C-C> "+y
-
 " Remaps
 nnoremap <S-k> :tabn<cr>
 nnoremap <S-j> :tabp<cr>
