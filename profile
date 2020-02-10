@@ -102,7 +102,7 @@ lolcat << EOF
 EOF
 
   if figlet -v >/dev/null 2>&1; then
-    echo "Focus, commitment, and sheer fn will!" | figlet -w $(tput cols) | lolcat
+    echo "Focus, commitment, and sheer fn will!" | figlet | lolcat
   else
     echo "Focus, commitment, and sheer fn will!" | lolcat
   fi
