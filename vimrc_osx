@@ -1,4 +1,4 @@
 " Clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
 vnoremap <C-C> "*y
 
