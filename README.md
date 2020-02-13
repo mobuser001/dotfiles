@@ -4,7 +4,7 @@
 
 ```bash
 xcode-select --install # install command line developer tools
-git clone git@github.com:RobertBrewitz/dotfiles.git
+git clone git@github.com:mobuser001/dotfiles.git
 cd dotfiles
 sh osx.sh
 ```
@@ -23,7 +23,7 @@ Open crosh (terminal) with alt+ctrl+T in the Chrome browser
 
 ```bash
 shell # to enter bash
-git clone git@github.com:RobertBrewitz/dotfiles.git
+git clone git@github.com:mobuser001/dotfiles.git
 cd dotfiles
 sh chronos.sh
 ```
@@ -39,7 +39,7 @@ Activate developer mode on your Windows and install Ubuntu WSL.
 Open Ubuntu WSL
 
 ```bash
-git clone git@github.com:RobertBrewitz/dotfiles.git
+git clone git@github.com:mobuser001/dotfiles.git
 cd dotfiles
 sh wsl.sh
 ```
@@ -53,7 +53,7 @@ Open terminal
 ```bash
 apt-get update # optional
 apt-get upgrade # optional
-git clone git@github.com:RobertBrewitz/dotfiles.git
+git clone git@github.com:mobuser001/dotfiles.git
 cd dotfiles
 sh ubuntu.sh
 ```

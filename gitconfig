@@ -1,8 +1,8 @@
 [user]
-  name = Robert Brewitz
-  email = hello@robertbrewitz.com
+  name = mob.user001
+  email = mob.user001@academicwork.se
 [github]
-  user = RobertBrewitz
+  user = mobuser001
 [color]
   branch = auto
   diff = auto
