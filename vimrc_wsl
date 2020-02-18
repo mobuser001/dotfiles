@@ -11,4 +11,6 @@ if executable(s:clip)
 end
 
 " Clipboard
-vnoremap <C-C> "*y
+vmap <C-c> "*y<ESC>
+vmap <C-x> "*c<ESC>
+imap <C-v> <ESC>"*p

@@ -1,4 +1,4 @@
 " Clipboard
-set clipboard=unnamed
-vnoremap <C-C> "*y
-
+vmap <D-c> "+y<ESC>
+vmap <D-x> "+c<ESC>
+imap <D-v> <ESC>"+p

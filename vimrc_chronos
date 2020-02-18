@@ -3,4 +3,6 @@ let base16colorspace=256
 set termguicolors
 
 " Clipboard
-vnoremap <C-C> "*y
+vmap <C-c> "+y<ESC>
+vmap <C-x> "+c<ESC>
+imap <C-v> <ESC>"+p
