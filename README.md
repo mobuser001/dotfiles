@@ -58,6 +58,14 @@ cd dotfiles
 sh ubuntu.sh
 ```
 
+### Hot Reloading frameworks
+
+To have developer servers such as react and preact, filewatch limit has to be increased for users.
+
+```bash
+echo 100000 | sudo tee /proc/sys/fs/inotify/max_user_watches
+```
+
 ## .gitconfig
 
 Update .gitconfig email, user, and username.
