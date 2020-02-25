@@ -49,10 +49,17 @@ nnoremap <S-j> :tabp<cr>
 nnoremap <C-p> :FZF<cr>
 nnoremap ; :
 
+" Insert mode completion
+imap <c-x><c-k> <plug>(fzf-complete-word)
+imap <c-x><c-f> <plug>(fzf-complete-path)
+imap <c-x><c-j> <plug>(fzf-complete-file-ag)
+imap <c-x><c-l> <plug>(fzf-complete-line)
+
 " Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'RobertBrewitz/editorconfig-vim'
 Plug 'RobertBrewitz/fzf'
+Plug 'RobertBrewitz/fzf.vim'
 Plug 'RobertBrewitz/vim-surround'
 Plug 'RobertBrewitz/vim-javascript'
 Plug 'RobertBrewitz/vim-jsx-pretty'
