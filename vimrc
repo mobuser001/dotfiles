@@ -71,7 +71,7 @@ call plug#begin('~/.vim/plugged')
 
   " Fuzzy finding
   Plug 'junegunn/fzf'
-  Plug 'junegunn/fzf.vim'
+  Plug 'RobertBrewitz/fzf.vim'
 
   " Syntax Highlighting
   Plug 'pangloss/vim-javascript'
