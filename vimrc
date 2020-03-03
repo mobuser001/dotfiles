@@ -34,6 +34,9 @@ set ttimeoutlen=0
 set showtabline=2
 set laststatus=2
 
+" Sign column
+set signcolumn=yes
+
 " Tags
 set tags=tags;/
 set tags+=tstags;/
@@ -57,46 +60,33 @@ imap <c-x><c-l> <plug>(fzf-complete-line)
 
 " Plugins
 call plug#begin('~/.vim/plugged')
-Plug 'RobertBrewitz/editorconfig-vim'
-Plug 'RobertBrewitz/fzf'
-Plug 'RobertBrewitz/fzf.vim'
-Plug 'RobertBrewitz/vim-surround'
-Plug 'RobertBrewitz/vim-javascript'
-Plug 'RobertBrewitz/vim-jsx-pretty'
-Plug 'RobertBrewitz/ultisnips'
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
-Plug 'RobertBrewitz/jellybeans.vim'
-Plug 'RobertBrewitz/rainbow_levels.vim'
-map <leader>l :RainbowLevelsToggle<cr>
-Plug 'RobertBrewitz/typescript-vim'
-let g:typescript_compiler_binary = 'tsc'
-let g:typescript_compiler_options = ''
-autocmd FileType typescript :set makeprg=tsc
-autocmd QuickFixCmdPost [^l]* nested cwindow
-autocmd QuickFixCmdPost l* nested lwindow
-Plug 'RobertBrewitz/vim-svelte'
-Plug 'RobertBrewitz/vim-prettier', {
-  \ 'do': 'npx yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+  " Formatting
+  Plug 'RobertBrewitz/editorconfig-vim'
+  Plug 'RobertBrewitz/vim-prettier', {
+    \ 'do': 'npx yarn install',
+    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+
+  " Utilities
+  Plug 'RobertBrewitz/vim-surround'
+
+  " Fuzzy finding
+  Plug 'RobertBrewitz/fzf'
+  Plug 'RobertBrewitz/fzf.vim'
+
+  " Syntax Highlighting
+  Plug 'RobertBrewitz/vim-javascript'
+  Plug 'RobertBrewitz/vim-jsx-pretty'
+  Plug 'RobertBrewitz/typescript-vim'
+
+  " Theme
+  Plug 'RobertBrewitz/jellybeans.vim'
+
+  " Language Servers
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " Theme
 color jellybeans
-
-" Rainbow
-hi default link RainbowLevel0 PreProc
-hi default link RainbowLevel1 String
-hi default link RainbowLevel2 Function
-hi default link RainbowLevel3 Type
-hi default link RainbowLevel4 Constant
-hi default link RainbowLevel5 Identifier
-hi default link RainbowLevel6 Statement
-
-for level in range(0, 6)
-  exe 'hi! link RainbowLevel'.(level+7).' RainbowLevel'.level
-endfor
 
 " Load environment specific vim config
 let $VIMRC_OSX=$HOME . '/.vimrc_osx'
